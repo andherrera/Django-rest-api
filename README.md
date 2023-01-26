@@ -1,15 +1,22 @@
 # Django-rest-api
 A CRUD REST API with Python [Django Rest Framework](https://www.django-rest-framework.org) and JSON Web Token [JWT](https://django-rest-framework-simplejwt.readthedocs.io/en/latest/index.html) authentication. This application also includes the following features:
 
-* Logging
-* Pagination
-* Unit test
+**Key Features**
+1 . Register
+2 . Login
+3 . Password Validation
+4 . CRUD Application
+5 . Logging
+6 . Pagination
+7 . Unit test
+8 . Python requests module
 
 ## Requirements
 
 * Python 3.11.0
 * Django 3.2.7
 * Django REST Framework 3.12.4
+* Requests 2.28.2
 
 ## ER Diagram
 
