@@ -1,5 +1,5 @@
 # Django-rest-api
-A CRUD REST API with Python  [Django Rest Framework]([https://www.django-rest-framework.org]). and JWT
+A CRUD REST API with Python [Django Rest Framework](https://www.django-rest-framework.org). and JWT
 
 ## Requirements
 
