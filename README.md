@@ -7,21 +7,6 @@ A CRUD REST API with Python [Django Rest Framework](https://www.django-rest-fram
 * Django 3.2.7
 * Django REST Framework 3.12.4
 
-## Installation
-
-After you cloned the repository, you want to create a virtual environment, so you have a clean python installation. You can do this by running the command
-
-```
-python -m venv env
-```
-
-After this, it is necessary to activate the virtual environment, you can get more information about this [here](https://docs.python.org/3/tutorial/venv.html)
-
-You can install all the required dependencies by running
-
-```
-pip install -r requirements.txt
-```
 
 ## ER Diagram
 
@@ -42,6 +27,36 @@ Endpoint | HTTP Method | Description
 `/movies/:id`  | PUT | Modify a single movie
 `/movies/:id`  | DELETE | Delete a single movie
 
+## Installation
+
+After you cloned the repository, you want to create a virtual environment, so you have a clean python installation. You can do this by running the command
+
+```
+python -m venv env
+```
+
+After this, it is necessary to activate the virtual environment, you can get more information about this [here](https://docs.python.org/3/tutorial/venv.html)
+
+You can install all the required dependencies by running
+
+```
+pip install -r requirements.txt
+```
+
+## Running the Application
+
+Before running the application we need to create the needed DB tables:
+```
+python ./manage.py makemigrations
+```
+```
+python ./manage.py migrate
+```
+Start the server
+```
+python ./manage.py runserver
+```
+Django will start running the server at localhost port 8000
 
 
 
