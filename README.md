@@ -23,5 +23,7 @@ You can install all the required dependencies by running
 pip install -r requirements.txt
 ```
 
+## Endpoints
+
 
 
