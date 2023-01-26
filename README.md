@@ -25,7 +25,8 @@ pip install -r requirements.txt
 
 ## ER Diagram
 
-![alt text](https://drive.google.com/file/d/1jFALB4IO-_rv-_sOAV4bqmm0et_MM9GC/view?usp=sharing)
+![Screenshot_1](https://user-images.githubusercontent.com/65980778/214958240-add500a5-8d6d-4932-8069-802e3e21992d.png)
+
 
 
 
