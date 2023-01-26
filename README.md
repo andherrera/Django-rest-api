@@ -3,10 +3,9 @@ A CRUD REST API with Python [Django Rest Framework](https://www.django-rest-fram
 
 ## Requirements
 
-Python 3.11.0
-Django 3.2.7
-Django REST Framework 3.12.4
-Simple JWT
+* Python 3.11.0
+* Django 3.2.7
+* Django REST Framework 3.12.4
 
 ## Installation
 
