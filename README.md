@@ -2,14 +2,14 @@
 A CRUD REST API with Python [Django Rest Framework](https://www.django-rest-framework.org) and JSON Web Token [JWT](https://django-rest-framework-simplejwt.readthedocs.io/en/latest/index.html) authentication. This application also includes the following features:
 
 **Key Features**
-1 . Register
-2 . Login
-3 . Password Validation
-4 . CRUD Application
-5 . Logging
-6 . Pagination
-7 . Unit test
-8 . Python requests module
+* Register
+* Login
+* Password Validation
+* CRUD Application
+* Logging
+* Pagination
+* Unit test
+* Python requests module
 
 ## Requirements
 
