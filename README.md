@@ -26,7 +26,7 @@ pip install -r requirements.txt
 ## Endpoints
 
 Endpoint | HTTP Method | Description
-| :--- | :--- | :---:
+| :--- | :---: | :---:
 `/user/`  | POST | Register User
 `/login/`  | POST | User login
 `/movies/`  | POST | Create movie
