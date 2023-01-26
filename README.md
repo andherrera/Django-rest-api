@@ -1,13 +1,14 @@
 # Django-rest-api
 A CRUD REST API with Python Django Rest Framework and JWT
 
-# Requirements
+## Requirements
+
 Python 3.11.0
 Django 3.2.7
 Django REST Framework 3.12.4
 Simple JWT
 
-#Installation
+## Installation
 
 After you cloned the repository, you want to create a virtual environment, so you have a clean python installation. You can do this by running the command
 
