@@ -26,14 +26,14 @@ pip install -r requirements.txt
 ## Endpoints
 
 Endpoint | HTTP Method | Description
-| :--- | ---: | :---:
-`user/`  | POST | Register User
-`login/`  | POST | User login
-`movies/`  | POST | Create movie
-`movies/`  | GET | Retrieve all movies
-`movies/:id`  | GET | Retrieve a single movie
-`movies/:id`  | PUT | Modify a single movie
-`movies/:id`  | DELETE | Delete a single movie
+| :--- | :--- | :---:
+`/user/`  | POST | Register User
+`/login/`  | POST | User login
+`/movies/`  | POST | Create movie
+`/movies/`  | GET | Retrieve all movies
+`/movies/:id`  | GET | Retrieve a single movie
+`/movies/:id`  | PUT | Modify a single movie
+`/movies/:id`  | DELETE | Delete a single movie
 
 
 
