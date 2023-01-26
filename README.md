@@ -23,6 +23,12 @@ You can install all the required dependencies by running
 pip install -r requirements.txt
 ```
 
+## ER Diagram
+
+![alt text](https://drive.google.com/file/d/1jFALB4IO-_rv-_sOAV4bqmm0et_MM9GC/view?usp=sharing)
+
+
+
 ## Endpoints
 
 Endpoint | HTTP Method | Description
