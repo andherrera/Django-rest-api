@@ -113,7 +113,7 @@ The following requests must include the access token.
 
 ![deeletemovie](https://user-images.githubusercontent.com/65980778/215204477-3b5a2918-5030-4733-b21b-511b5a79d6a8.png)
 
-### Get Tandom Number public API
+### Get Random Number public API
 
 ![randNum](https://user-images.githubusercontent.com/65980778/215204473-90d2b124-176c-41f7-a9fa-58422455a14c.png)
 
