@@ -1,10 +1,12 @@
 # :movie_camera: Movies Django-rest-api 
 A CRUD REST API with Python [Django Rest Framework](https://www.django-rest-framework.org) and JSON Web Token [JWT](https://django-rest-framework-simplejwt.readthedocs.io/en/latest/index.html) authentication.
 
+The application should let users to create a new movie (public or private). If the movie is public, all users can retrieve it, but if the movie is private just the user that create the movie can retrieve it. Moreover the user that creates the movie is the only one authorized to update and delete it.
+
 **Key Features**
 * Register
 * Login
-* Password Validation
+* Password Validation(At least 10 characters, one lowercase letter, one uppercase letter and one of the following characters: !, @, #, ? or ])
 * CRUD Application
 * Logging
 * Pagination
@@ -19,6 +21,8 @@ A CRUD REST API with Python [Django Rest Framework](https://www.django-rest-fram
 * Requests 2.28.2
 
 ## ER Diagram
+
+The following diagram explains the relationships between users entity and movies. It can be noted that the attribute "status" in the Movie entity tells if a movie is public or private, also it is important to mention that there is a One-to-Many relationship between Users and Movies, then one user can create multiple movies.
 
 ![Screenshot_1](https://user-images.githubusercontent.com/65980778/214958240-add500a5-8d6d-4932-8069-802e3e21992d.png)
 
@@ -69,7 +73,7 @@ Django will start running the server at localhost port 8000
 
 ## Testing the Application
 
-The following tests were performed using [Postman](https://www.postman.com/downloads/). 
+The following tests were performed using [Postman](https://www.postman.com/downloads/), and the default SQLite database provided by Django
 
 ### Register User
 
@@ -123,6 +127,11 @@ In order to run the test unit, use the command below
 ```
 python ./manage.py test
 ```
+Four test were performed:
+* Sign up
+* login
+* Get all movies
+* Get random number
 
 
 
