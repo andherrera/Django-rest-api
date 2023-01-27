@@ -1,0 +1,6 @@
+2023-01-27 16:20:51,718;INFO; User: test@test.com modifies movie id: 11 
+2023-01-27 16:21:41,237;INFO; User: test@test.com request information about movie id: 11 
+2023-01-27 16:22:18,321;INFO; User: test@test.com deletes movie id: 11 
+2023-01-27 16:25:50,048;WARNING;Bad Request: /user/
+2023-01-27 16:26:33,230;WARNING;Bad Request: /user/
+2023-01-27 17:12:27,943;INFO; User: test@test.com uploads movie: Test Movie 
