@@ -119,6 +119,8 @@ The following requests must include the access token.
 
 ### Logging
 
+Each POST, GET, UPDATE, DELETE will be stored in the file movies.log, this file will be zipped each sunday.
+
 ![logs](https://user-images.githubusercontent.com/65980778/215204502-42110d38-140c-43f3-a87e-c50c5a2a685b.png)
 
 ### Unit test
