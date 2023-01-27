@@ -22,7 +22,7 @@ The application should let users to create a new movie (public or private). If t
 
 ## ER Diagram
 
-The following diagram explains the relationships between users entity and movies. It can be noted that the attribute "status" in the Movie entity tells if a movie is public or private, also it is important to mention that there is a One-to-Many relationship between Users and Movies, then one user can create multiple movies.
+The following diagram explains the relationships between User and Movie entities. It can be noted that the attribute "status" in the Movie entity tells if a movie is public or private, also it is important to mention that there is a One-to-Many relationship between Users and Movies, then one user can create multiple movies.
 
 ![Screenshot_1](https://user-images.githubusercontent.com/65980778/214958240-add500a5-8d6d-4932-8069-802e3e21992d.png)
 
