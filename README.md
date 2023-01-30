@@ -1,7 +1,7 @@
 # :movie_camera: Movies Django-rest-api 
 A CRUD REST API with Python [Django Rest Framework](https://www.django-rest-framework.org) and JSON Web Token [JWT](https://django-rest-framework-simplejwt.readthedocs.io/en/latest/index.html) authentication.
 
-The application should let users to create a new movie (public or private). If the movie is public, all users can retrieve it, but if the movie is private just the user that create the movie can retrieve it. Moreover the user that creates the movie is the only one authorized to update and delete it.
+The application allows users to create a new movie (public or private). If the movie is public, all users can retrieve it, but if the movie is private just the user that creates the movie can retrieve it. Moreover the user that creates the movie is the only one authorized to update and delete it.
 
 **Key Features**
 * Register
